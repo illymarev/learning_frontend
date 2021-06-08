@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.important-heading{
+
+}
+
+body{
+    font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
+}
+
+
+nav {
+    background: #fcd5ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    font-size: 1.5rem;
+    color: #343434;
+    opacity: 0.9;
+}
+
+
+nav ul{
+    list-style: none;
+    display:flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 1.3rem 2rem;
+    color: #343434;
+}
+
+nav ul li a:hover{
+    background: #fec5bb;
+}
+
+nav h1 {
+    padding: 40px;
+    opacity: 0.75;
+}
+
+#welcome{
+    background: #ffffff;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+#welcome .welcome-image{
+    width: 60vw;
+    height: 60vh;
+    background: url("../images/pexels-secret-garden-931177.jpg") no-repeat center center/cover;
+    margin: 2rem;
+    opacity: 0.9;
+    border-radius: 2%;
+    padding: 5rem;
+}
+
+#welcome .right-side{
+    opacity: 0.9;
+}
+
+#welcome h1,
+#welcome .welcome-text{
+    text-align: center;
+    padding: 10px;
+}
+
+#welcome .welcome-buttons{
+    margin-top: 3rem;
+}
+
+#welcome #get-started,
+#welcome #gift-flowers{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    color: white;
+    border: #da1e37 solid 3px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#welcome #get-started{
+    background-color: #da1e37;
+    border-radius: 10px;
+}
+
+#welcome #gift-flowers{
+    background-color: white;
+    color: #da1e37;
+    border: #da1e37 solid 3px;
+    border-radius: 10px;
+}
+
+#welcome #get-started:hover{
+    background: #a71e34;
+}
+
+#welcome #gift-flowers:hover{
+    background: #f8f7ff;
+    color: black;
+    border: grey solid 3px;
+}
